@@ -1,0 +1,27 @@
+{
+  "name": "sql-storefront",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bamazonCustomer.js",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "console.table": "^0.10.0",
+    "inquirer": "^6.5.0",
+    "mysql": "^2.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caleblmyers/sql-storefront.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caleblmyers/sql-storefront/issues"
+  },
+  "homepage": "https://github.com/caleblmyers/sql-storefront#readme"
+}
