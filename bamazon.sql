@@ -16,11 +16,11 @@ CREATE TABLE products (
 INSERT INTO products (product_name, department_name, price, stock_quantity) VALUES
 ("USB Keyboard", "Electronics", 49.99, 300),
 ("Coffee Maker", "Appliances", 49.99, 550),
-("iPod Nano", "Electronics", 99.99, 500),
+("iPod Nano", "Electronics", 99.99, 4),
 ("The Witcher 3", "Video Games", 29.99, 500),
 ("Cyberpunk 2077", "Video Games", 59.99, 2500),
 ("Blender", "Appliances", 69.99, 250),
 ("Mario Kart X", "Video Games", 59.99, 1500),
 ("Waffle Maker", "Appliances", 39.99, 350),
-("CD Player", "Electronics", 29.99, 100),
-("The Legend of Dragoon", "Video Games", 9.99, 250);
+("CD Player", "Electronics", 29.99, 6),
+("The Legend of Dragoon", "Video Games", 9.99, 3);

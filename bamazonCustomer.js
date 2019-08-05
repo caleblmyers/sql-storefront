@@ -67,7 +67,8 @@ function makePurchase() {
         if (err) throw err;
 
         if (orderCount > res[0].stock_quantity) {
-          console.log("\nInsufficient quantity!\n")
+          console.log("\nInsufficient quantity!")
+          console.log("\nReturning to menu...")
           orderValid = false
           return listProducts()
         }
@@ -88,8 +89,8 @@ function updateProducts(orderId, orderCount) {
       }
     ],
     function (err, res) {
-      if (err) throw err;
-      console.log("\nPurchase successful!\n")
+      if (err) throw err
+      console.log("\nPurchase successful!\n");
       connection.query("SELECT price FROM products WHERE item_id = " + orderId, function (err, res) {
         if (err) throw err
         console.log("Total cost of order: $" + (orderCount * res[0].price).toFixed(2))
