@@ -49,7 +49,6 @@ Choosing "Purchase Item" prompts the user for the item's ID and a purchase amoun
 If the user attempts to purchase more units of an item than there are available, an error will be displayed.
 
 ![Purchase error](./images/customer-error.png)
-![Purchase error](./images/customer-error(1).png)
 
 #### Manager Page
 
@@ -61,7 +60,7 @@ Choosing "View All Products" displays a table of all available products.
 
 ![View all products](./images/manager-view-all.png)
 
-Choosing "View Low Inventory" displays a table of all available products with a stock count lower that 5.
+Choosing "View Low Inventory" displays a table of all available products with a stock count lower than 5.
 
 ![View low inventory](./images/manager-low-inv.png)
 
